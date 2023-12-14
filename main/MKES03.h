@@ -11,7 +11,7 @@
 #include "driver/adc.h"
 #include "esp_adc_cal.h"
 
-void readSensorValue(void* pvParameter);
+float readSensorValue(void* pvParameter);
 
 
 #endif /* MAIN_MKES03_H_ */
